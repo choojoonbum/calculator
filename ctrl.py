@@ -13,5 +13,8 @@ class Control:
         pass
 
     def sum(self, a, b) :
-        return a + b
+        try:
+            return str(a + b)
+        except:
+            return "Calculation Error"
 
